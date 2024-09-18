@@ -59,7 +59,7 @@ input {
     padding: 1.5rem;
     background-color: var(--White);
     border-radius: 8px;
-    border-bottom-right-radius: 25%;
+    border-bottom-right-radius: 30%;
 }
 
 .dmy {
@@ -72,7 +72,7 @@ input {
 }
 
 .line {
-    margin-top: 1.4rem;
+    margin-top: 1rem;
     border: .3px solid var(--Lightgrey);
     width: 290px;
 }
@@ -82,7 +82,7 @@ input {
     border-radius: 50%;
     margin-top: 20px;
     padding: 1rem;
-    width: 60px;
+    width: 50px;
 }
 
 .div {
@@ -90,6 +90,7 @@ input {
     align-items: center;
     justify-content: center;
     height: 35px;
+    margin-bottom: 15px;
 }
 
 /* ===== Result ===== */
@@ -101,9 +102,9 @@ input {
     /* margin-left: 4.2rem; */
 }
 
-.ltline {
+/* .ltline {
     font-size: 5rem;
-}
+} */
 
 .arrow-group {
     display: flex;
@@ -114,7 +115,7 @@ input {
     width: 20px;
     /* height: 50px; */
     background-color: var(--Purple);
-    height: 5px;
+    height: 8px;
     transform: skewx(-10deg);
 }
 
